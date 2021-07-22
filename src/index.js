@@ -12,12 +12,12 @@ const connectionURI = 'mongodb://localhost:27017/my-database';
   const users = [
     {
       name: 'John Doe',
-      password: password1,
+      password: 'my-password',
       email: 'john.doe@email.com',
     },
     {
       name: 'Jane Doe',
-      password: password2,
+      password: 'my-password',
       email: 'jane.doe@email.com',
     },
   ];
