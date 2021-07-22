@@ -8,6 +8,7 @@ const connectionURI = 'mongodb://localhost:27017/my-database';
   await client.connect();
   const db = client.db();
   console.log('Conectado a la base de datos');
+  
   const users = [
     {
       name: 'John Doe',
