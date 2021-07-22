@@ -1,0 +1,14 @@
+{
+  "name": "password-hash-playground",
+  "version": "1.0.0",
+  "description": "Demo guardando passwords en MongoDB y NodeJS",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "author": "Lemoncode",
+  "license": "MIT",
+  "dependencies": {
+    "mongodb": "^4.0.1"
+  }
+}
